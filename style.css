@@ -1,0 +1,78 @@
+header {
+  display: inline;
+}
+
+.atas {
+  background-color: beige;
+  text-align: center;
+  width: 100%;
+  display: inline-block;
+  padding: 50px;
+  box-sizing: border-box;
+}
+
+nav {
+  background-color: beige;
+  padding: 5px;
+  position: sticky;
+  top: 0;
+}
+
+nav ul {
+  padding-inline: 31rem;
+  display: flex;
+  gap: 3rem;
+}
+
+nav li {
+  list-style-type: none;
+}
+
+nav a {
+  font-size: 20px;
+  font-weight: 400;
+  text-decoration: none;
+  color: black;
+}
+
+nav a:hover {
+  font-weight: bolder;
+}
+
+main {
+  padding: 20px;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.isi {
+  display: flex;
+  flex: 5;
+  flex-flow: colum nowrap;
+}
+
+.card {
+  box-shadow: 0 2px 8px 2px hsl(353, 20%, 67%);
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.bagian {
+  display: flex;
+  flex: 5;
+  flex-flow: colum nowrap;
+}
+
+.sub {
+  box-shadow: 0 2px 8px 2px hsl(353, 20%, 67%);
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+footer {
+  padding: 20px;
+  color: black;
+  background-color: beige;
+}
